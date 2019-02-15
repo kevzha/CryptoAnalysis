@@ -1,16 +1,4 @@
 # CryptoAnalysis
+## Marc S. and Kevin Z.
 
-#importing the required tools
-
-#alpha vantage tools
-!pip install alpha_vantage
-import alpha_vantage
-%matplotlib inline
-from alpha_vantage.timeseries import TimeSeries
-from alpha_vantage.cryptocurrencies import CryptoCurrencies
-
-#dataframe and calculations libraries
-import pandas as pd
-import matplotlib.pyplot as plt
-import numpy as np
-import seaborn as sns
+We did an analysis of some of the top 100 bitcoins and their progress throughout the past year. We split the top 100 bitcoins into 5 subgroups depending on where they were in the ranking. An analysis was performed on the daily price changes and attempted to see if there were any correlations between the sub-groups. This was mainly done through a dataframe from the pandas library and our data was obtained through the Alpha Vantage API and scraped from coinmarketcap.com. 
